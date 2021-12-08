@@ -4,6 +4,7 @@ import (
 	"aoc/day1"
 	"aoc/day2"
 	"aoc/day3"
+	"aoc/day4"
 	"fmt"
 )
 
@@ -22,8 +23,14 @@ func solveDay3() {
 	fmt.Println("day 3 part 2", day3.SolvePart2(day3.Input))
 }
 
+func solveDay4() {
+	// @TODO still wrong
+	fmt.Println("day 4 part 1", day4.SolvePart1(day4.Input1, day4.Input2))
+}
+
 func main() {
 	solveDay1()
 	solveDay2()
 	solveDay3()
+	solveDay4()
 }
